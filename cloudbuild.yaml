@@ -8,7 +8,7 @@ steps:
         pip install -r requirements.txt
         python -m playwright install --with-deps chromium
         pytest --html=reports/index.html
-artifcats:
+artifacts:
   objects:
     location: gs://bootcamp-mar30/pw-python-reports
     paths:
